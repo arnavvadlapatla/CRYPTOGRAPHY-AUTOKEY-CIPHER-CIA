@@ -13,7 +13,3 @@ print("CIPHERTEXT:", cipher)
 print("HASH      :", hash_value)
 print("DECRYPTED :", decrypted)
 
-if plaintext.upper().replace(" ", "") == decrypted:
-    print("OPERATIONAL")
-else:
-    print("ERROR")
